@@ -1,0 +1,41 @@
+/* Map Container Styling */
+.leaflet-container {
+  height: 75vh;   /* Map height - Adjust if necessary */
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1;   /* Ensure the map is on top */
+}
+
+/* Ensure map and markers display correctly */
+.map-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Improved card styling */
+.card {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Popup styling */
+.leaflet-popup-content-wrapper {
+  background: #f4f4f4;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  font-family: "Roboto", sans-serif;
+}
