@@ -99,7 +99,7 @@ const MapView = () => {
       <MapContainer center={[20, 77]} zoom={5} style={{ height: "65vh", width: "100%", marginTop: "20px" }}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution="&copy; OpenStreetMap contributors"
+          // attribution="&copy; OpenStreetMap contributors"
         />
         <MapClickHandler />
 

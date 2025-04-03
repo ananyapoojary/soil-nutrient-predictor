@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";  // Use the new createRoot API
 import App from "./App";
-import "leaflet/dist/leaflet.css";   // ✅ Import Leaflet CSS globally
+import "leaflet/dist/leaflet.css";   //  Leaflet CSS globally
 
 import "./styles.css";
 
